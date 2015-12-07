@@ -1,5 +1,13 @@
 <?php
-
+/*
+Используется для динамического расширения функциональности объекта.
+Является гибкой альтернативой наследованию.
+Как и шаблон Composite, шаблон Decorator может показаться сложным для понимания. 
+Важно помнить, что и композиция, и наследование вступают в действие
+одновременно. Поэтому  LogRequest  наследует свой интерфейс от  ProcessRequest,
+но, в свою очередь, выступает в качестве оболочки для другого объекта типа  Process
+Request.
+*/
 class RequestHelper{}
 
 abstract class ProcessRequest {
@@ -44,8 +52,5 @@ $process = new AuthenticateRequest( new StructureRequest(
                                     new LogRequest (
                                     new MainProcess()
                                     )));
-?>
-<pre>
-<? var_dump($process);
 $process->process( new RequestHelper() );
 ?>
