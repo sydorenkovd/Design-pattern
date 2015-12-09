@@ -168,4 +168,3 @@ $shakira = new CdProduct("My Mister", "NoName", "Shakira",
 								"25$", "56:01");
 $book->getSummaryLine();
 $shakira->getSummaryLine();
-?>

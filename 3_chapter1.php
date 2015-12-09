@@ -34,6 +34,9 @@ public function getProducerFirstName() {
 public function getProducerMainName() {
 	return $this->producerMainName;
 }
+    public function setPrice($price){
+        $this->price = $price;
+    }
 public function setDiscount( $num ) {
 	$this->discount=$num;
 }
@@ -93,4 +96,3 @@ public function getPrice() {
 	return $this->price;
 }
 }
-?>
