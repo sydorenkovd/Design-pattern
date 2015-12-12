@@ -35,14 +35,14 @@ class Subscriber{
     function Subscribe(Newspaper $newspaper){
         $this->newspaper = $newspaper;
         $this->newspaper->registerObserver($this);
-        print $this->name.' подписался на газету "'.$newspaper->paper_name.'".<br>';
+        print $this->name.' подписался на газету "'. $newspaper->paper_name .'".<br>';
     }
     function Unsubscribe(){
         $this->newspaper->removeObserver($this);
         print $this->name.' решил сэкономить деньги и отписался от газеты "<b>'.$this->newspaper->paper_name.'</b>".<br>';
     }
     function update($news){
-        print 'В новом номере газеты <b>"'.$this->newspaper->paper_name.'"</b> читатель '.$this->name.' прочитал:"'.$news.'"<br>';
+        print 'В новом номере газеты <b>"'.$this->newspaper->paper_name.'"</b> читатель '. $this->name.' прочитал:"'. $news.'"<br>';
     }
 }
 
