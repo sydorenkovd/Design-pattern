@@ -1,6 +1,6 @@
 Design-pattern
 ==============
-Pattern by Zandstra, Domnikl, Borisov and Sydorenko.
+Pattern by Sydorenko.
 ----------------------------------------------------
 ### I have here all pattern for useful and more productive development. I've done it for some reason:
 * There is no really full book for describing patterns. Some of them have boring UML, some of them were written on Smaltalk, etc.
