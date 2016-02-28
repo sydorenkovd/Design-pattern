@@ -7,6 +7,10 @@ Pattern by Sydorenko.
 * Particularly i have not seen good realization on php.
 * I'd liked to describe  more patterns, with more examples and more descriptions.
 
+[![Singleton](https://j.gifs.com/gJxwvY.gif)](https://youtu.be/61yptGbyGKA)
+
+
+
 # Write code and love php, X
 P.S.: For better understanding check this out:
 * [dominikl/DesignPatternsPHP](https://github.com/domnikl/DesignPatternsPHP)
